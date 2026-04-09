@@ -75,9 +75,7 @@ Behavioral constraints encoded in the prompt:
 
 ### Reformulation Agent
 
-The reformulation agent is triggered when the classification agent determines that the current main question has not yet been adequately addressed. It rephrases the main question to incorporate information already provided by the interviewee — for example, to elicit clarifications, elaborations, or extensions of a prior answer — before re-presenting it.
-
-> **Note**: The prompt file for the reformulation agent is not included in this repository. Based on the system design described in the paper, the agent receives the main question, the question context, and the relevant prior answers, and returns a reformulated version of the question tailored to the conversation so far.
+It rephrases the main question to incorporate information already provided by the interviewee.
 
 ### Classification Agent
 
